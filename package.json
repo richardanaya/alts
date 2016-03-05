@@ -9,6 +9,14 @@
   "keywords": [
     "promise"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "Richard Anaya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardanaya/alts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richardanaya/alts/issues"
+  },
+  "homepage": "https://github.com/richardanaya/alts#readme"
 }
