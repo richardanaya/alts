@@ -26,15 +26,17 @@ This function is popular from the clojure world where its used to race channels.
 
 ```javascript
 var p1 = new Promise(function(resolve, reject) {
-    setTimeout(resolve, 500, "one");
+    setTimeout(resolve, 500, "Greedo");
 });
 
 var p2 = new Promise(function(resolve, reject) {
-    setTimeout(resolve, 100, "two");
+    setTimeout(resolve, 100, "Han");
 });
 
 alts(p1,p2).then(function(result){
   result.source //p2
-  result.value //"two"
+  result.value //"Han"
+}).catch(function(result){
+  console.log("All promises failed! :(")
 })
 ```
