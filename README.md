@@ -36,7 +36,7 @@ var p2 = new Promise(function(resolve, reject) {
 alts(p1,p2).then(function(result){
   result.source //p2
   result.value //"Han"
-}).catch(function(result){
+}).catch(function(results){
   console.log("All promises failed! :(")
 })
 ```
