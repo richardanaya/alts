@@ -38,3 +38,15 @@ alts(p1,p2).then(function(result){
   result.value //"two"
 })
 ```
+
+#Install
+
+```
+<script src="https://cdn.rawgit.com/richardanaya/alts/master/alts.js"></script>
+```
+
+or
+
+```
+npm install alts
+```
